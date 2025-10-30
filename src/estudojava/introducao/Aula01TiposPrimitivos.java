@@ -1,4 +1,4 @@
-package java.estudo.introducao;
+package estudojava.introducao;
 
 public class Aula01TiposPrimitivos {
     public static void main(String[] args){
@@ -17,8 +17,13 @@ public class Aula01TiposPrimitivos {
         char caractere = 'M';
 
         /*
-        Mesmo que a variavel receba um número interio pode ser feito CASTING
+        CASTING não é uma boa prática mas é uma ferramenta para converter tipos primitivos maiores
+        em menores.
+
+        EX(nesse exemplo é perdida a parte decimal):
          */
+        double exCasting =(int) 23.13;
+        System.out.println(exCasting);
 
     }
 }
